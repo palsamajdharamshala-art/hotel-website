@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #ffffff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -5397,7 +5397,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #934242 !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -8186,12 +8186,12 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-brand {
     color: #000000; }
     .ftco-navbar-light .navbar-brand span {
-      color: #f5e4c3; }
+      color: #c78300; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 20px;
@@ -8576,7 +8576,7 @@ h1, h2, h3, h4, h5,
       font-size: 30px; }
 
 .bg-light {
-  background: #f8f9fa !important; }
+  background: #934242 !important; }
 
 .bg-primary {
   background: #21cc7a; }
@@ -8833,7 +8833,7 @@ h1, h2, h3, h4, h5,
 
 .room-wrap {
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -9164,6 +9164,20 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
+.ftco-animate-para p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.9;
+  hyphens: auto;             /* allows words to break naturally */
+  word-spacing: 0.05em;      /* adjusts spacing between words */
+  text-align-last: justify;  /* ensures last line aligns better */
+  font-size: 18px;
+}
+
+#room-para p {
+  color: #5a5a5a;
+}
+
 .bg-primary {
   background: #21cc7a !important; }
 
@@ -9349,10 +9363,10 @@ textarea.form-control {
     box-shadow: 0 0 0 0 rgba(33, 204, 122, 0); } }
 
 .heading-section .subheading {
-  font-size: 13px;
+  font-size: 20px;
   display: block;
   margin-bottom: 5px;
-  color: #21cc7a;
+  color: #c78300;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700; }
